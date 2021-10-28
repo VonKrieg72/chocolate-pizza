@@ -1,0 +1,21 @@
+h2{
+  font-family: cursive;
+}
+
+header {
+   width: 960px;
+   background-color: blue;
+}
+
+nav {
+  display: flex;
+  flex-direction: row; 
+  align-content: flex-start;
+  background-color: red;
+  width: 960px;
+}
+
+section > img {
+  max-width: 25%;
+  max-height: 25%;
+}
