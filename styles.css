@@ -5,17 +5,31 @@ h2{
 header {
    width: 960px;
    background-color: blue;
+   display: flex; 
+   justify-content: space-between;
 }
 
-nav {
-  display: flex;
-  flex-direction: row; 
-  align-content: flex-start;
+div {
+  display: inline-flex;
+  /* justify-content: ; */
+  /* margin-left: 20rem; */
+  /* flex-direction: row;  */
+  /* align-content: flex-start; */
   background-color: red;
-  width: 960px;
+  width: 20px;
+  
 }
 
 section > img {
   max-width: 25%;
   max-height: 25%;
 }
+
+footer {
+  display: flex;
+ justify-content: flex-end;
+}
+ button {
+   width: 10px;
+   height: 10px;
+ }
